@@ -1,0 +1,43 @@
+body {
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: black;
+}
+
+ #simonGame {
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    border-collapse: collapse;
+    left:37%;
+    top: 120px;
+    /* fill: brown; */
+}
+
+td {
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+}
+
+ #green {
+    background: green;
+    /*fill: green; */
+}
+
+ #red {
+    background: #a30000;
+    /* fill:#a30000; */
+}
+
+ #blue {
+    background: #000b8c;
+    /* fill:#000b8c; */
+}
+
+  #yellow {
+    background:#9e9000;
+    /* fill:#9e9000; */
+}

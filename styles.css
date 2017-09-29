@@ -1,0 +1,137 @@
+body {
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: black;
+}
+
+#game {
+    
+    padding:0;
+    margin:0;
+    width: 800px;
+    height: 800px;
+    top: 50%;
+    left: 50%;
+    position: relative;
+}
+
+#game #screenText {
+    padding:0px;
+    font-size: 62px;
+    margin:0px;
+    left: 48%;
+    top: 56%;
+    position: relative;
+    color: #ff5b5b;
+} 
+
+
+
+#game #startText {
+    cursor: pointer;
+    padding:0px;
+    font-size: 30px;
+    margin:0px;
+    top: 61%;
+    left: 44%;
+    position: relative;
+    color: #ffffff;
+    width: 110px;
+} 
+
+
+#game #hardText {
+    cursor: pointer;
+    clear:both;
+    padding:0px;
+    font-size: 18px;
+    margin:0px;
+    left: 42%;
+    top: 63.2%;
+    position: relative;
+    color: #ffffff;
+    width: 60px;
+}
+
+#game #easyText {
+    cursor: pointer;
+    padding:0px;
+    font-size: 18px;
+    margin:0px;
+    left: 53%;
+    top: 66.1%;
+    position: relative;
+    color: #ffffff;
+    width: 60px;
+} 
+
+#game #easyText:hover {
+    color: #b2b2b2;
+}
+
+#game #hardText:hover {
+    color: #b2b2b2;
+}
+
+#game #startText:hover {
+    color: #b2b2b2;
+}
+
+ #simonGame {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    fill: #f2cb9b; 
+}
+
+ #green {
+    fill: green; 
+        cursor: pointer;
+
+}
+
+ #red {
+    fill:#a30000; 
+        cursor: pointer;
+
+
+}
+
+ #blue {
+    fill:#000b8c;
+        cursor: pointer;
+
+}
+
+  #yellow {
+    fill:#9e9000; 
+        cursor: pointer;
+
+}
+
+#start {
+    cursor: pointer;
+}
+
+#screenDiv {
+    fill: #821414;
+}
+
+#easy {
+    fill: #821414;
+        cursor: pointer;
+    color: red;
+
+}
+
+#hard {
+    fill: #821414;
+        cursor: pointer;
+    color: red;
+}
+
+#svg {
+    z-index: 10;
+}
